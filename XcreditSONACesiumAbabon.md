@@ -1,6 +1,8 @@
 # Take on SONA July 2025 of Pres. Fernidand R. Marcos Jr.
 ### by Allison Ababon, 9-Cesium
 
+![Marcos during SONA 2025](Marcos.jpg)
+
 1.
 * 3 ovals managed by the PSC are now opened for the public.
 * The administration of Build Better More program and the building of the Metro Manila Subway.
