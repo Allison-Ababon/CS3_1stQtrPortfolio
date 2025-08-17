@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2> Q1 2nd Graded Exercise submitted by Allison Ababon of Cesium</h2>
+
+    <!-- Enter your tags below until the script tag -->
+     <label>Meal Price:
+        <input id = "mp" />
+     </label>
+
+     <br>
+
+     <label>Tip:
+        <input id = "tip" />
+     </label>
+
+     <br>
+
+     <label>Service Charge:
+        <input id = "sc" />
+     </label>
+
+     <br>
+
+     <button onclick="totalMeal()">Accept Input</button> </p>
+     <p>Total Meal: <span id="totaCost"> </span></p>
+    
+
+    <script>
+        function totalMeal() {
+              // place your JS code here
+              var mp = Number (document.getElementById("mp").value)
+              var tip = Number (document.getElementById("tip").value)
+              var sc = Number (document.getElementById("sc").value)
+
+              var totalCost = mp + tip + (sc / 100 * mp)
+              totaCost.innerHTML = `<p><b> ${totalCost.toFixed(2)}</b></p>`;
+        }
+    </script>
+
+</body>
+</html>
